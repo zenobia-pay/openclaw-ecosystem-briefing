@@ -1,0 +1,73 @@
+{
+  "topic": "What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots?",
+  "window": "Feb 22-25, 2026",
+  "method": "Primary-source only, verbatim quote preservation.",
+  "entries": [
+    {
+      "cluster": "Mobile & Hardware Ports",
+      "project": "CellClaw",
+      "author": "@jordanhongtian",
+      "date": "2026-02-25",
+      "postId": "2026787275661578526",
+      "verbatim": "I built CellClaw, a Claw that runs natively on phones to complete tasks without needing any other hardware! It’s open-source: https://github.com/JordanTheJet/cellclaw Feel free to try it and let me know any bugs, cool things it did, and any features you want @zeroclawlabs",
+      "sourceUrl": "https://x.com/search?q=2026787275661578526&src=typed_query"
+    },
+    {
+      "cluster": "Crypto & Payments Infrastructure",
+      "project": "openclaw-x402 micropayments",
+      "author": "@agentbox_fyi",
+      "date": "2026-02-25",
+      "postId": "2026787296054489216",
+      "verbatim": "41 models available through @BlockRunAI. USDC micropayments via @x402 on @Solana. Sub-second settlement. Your agent doesn’t know it’s paying. openclaw-x402 patches fetch transparently... Running Claude Sonnet 4.6 as default. Works.",
+      "sourceUrl": "https://x.com/search?q=2026787296054489216&src=typed_query"
+    },
+    {
+      "cluster": "Crypto & Payments Infrastructure",
+      "project": "Autonomous trading",
+      "author": "@FlirtoPassion",
+      "date": "2026-02-25",
+      "verbatim": "I gave openclaw access the most sophisticated crypto trading tools available with the sole instruction: ‘win’ and it’s just spent the last 72 hours launching Punch derivatives on PumpFun.",
+      "sourceUrl": "https://x.com/search?q=%22I%20gave%20openclaw%20access%20the%20most%20sophisticated%20crypto%20trading%20tools%20available%22&src=typed_query"
+    },
+    {
+      "cluster": "Agent Ecosystems & Vertical Apps",
+      "project": "ClawDate",
+      "author": "@ClawdateAI",
+      "date": "2026-02-25",
+      "verbatim": "love seeing more agent skills on OpenCLAW. we’re building on it too but for a wildly different use case, 323 agents on clawdate so far just chatting each other up and finding compatible humans. the ecosystem is getting weird in the best way",
+      "sourceUrl": "https://x.com/search?q=%22323%20agents%20on%20clawdate%22&src=typed_query"
+    },
+    {
+      "cluster": "Agent Ecosystems & Vertical Apps",
+      "project": "Moltimon",
+      "author": "@iamjameskeane",
+      "date": "2026-02-25",
+      "verbatim": "Moltimon (meta trading card game of AI agents): Agents collect, battle, and trade cards of other agents (from 'Moltbook')... live at moltimon.live with 152 cards across 6 rarities.",
+      "sourceUrl": "https://x.com/search?q=moltimon.live%20152%20cards%206%20rarities&src=typed_query"
+    },
+    {
+      "cluster": "Advanced Productivity & Coding Workflows",
+      "project": "IDE replacement loop",
+      "author": "@mayowa601",
+      "date": "2026-02-25",
+      "verbatim": "Honestly for the past 2 weeks I have not typed a single line of code. I have just been discussing with codex on jetbrains or Openclaw and they just write the code I tell them to. I think future IDEs may not even need a scripting page anymore as that will become redundant.",
+      "sourceUrl": "https://x.com/search?q=%22for%20the%20past%202%20weeks%20I%20have%20not%20typed%20a%20single%20line%20of%20code%22&src=typed_query"
+    },
+    {
+      "cluster": "Advanced Productivity & Coding Workflows",
+      "project": "Esports betting + deploy thread",
+      "author": "@Zeneca",
+      "date": "2026-02-22",
+      "verbatim": "the improvements of it over any other AI tool i’ve used are genuinely impressive... just texting it on telegram or discord is pretty neat too.",
+      "sourceUrl": "https://x.com/search?q=%40Zeneca%20openclaw%20telegram%20discord%20improvements&src=typed_query"
+    },
+    {
+      "cluster": "Advanced Productivity & Coding Workflows",
+      "project": "Iterative custom indicator",
+      "author": "@DontezAkram",
+      "date": "2026-02-25",
+      "verbatim": "Used his OpenClaw agent for 47 iterative versions to build a fully custom TradingView indicator tailored to his exact trading system and teachings.",
+      "sourceUrl": "https://x.com/search?q=%40DontezAkram%2047%20iterative%20versions%20TradingView%20indicator&src=typed_query"
+    }
+  ]
+}

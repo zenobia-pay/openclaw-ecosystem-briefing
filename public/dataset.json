@@ -1,0 +1,16 @@
+{
+  "title": "What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots?",
+  "constraints": [
+    "Primary-source driven",
+    "Verbatim quote blocks",
+    "Every entry linked",
+    "No unsupported paraphrase"
+  ],
+  "sections": [
+    "Mobile & Hardware Ports",
+    "Crypto & Payments Infrastructure",
+    "Agent Ecosystems & Vertical Apps",
+    "Advanced Productivity & Coding Workflows",
+    "Security & Governance"
+  ]
+}

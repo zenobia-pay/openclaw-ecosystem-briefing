@@ -1,0 +1,106 @@
+{
+  "topic": "OpenClaw ecosystem daily intelligence briefing",
+  "runs": [
+    {
+      "date": "2026-03-05",
+      "timeWindow": "last 24 hours",
+      "prompt": "What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots?",
+      "oneSentenceTake": "In the last 24 hours, the highest-signal OpenClaw usage moved from toy demos to production-like systems—multi-agent company ops, autonomous trading, ad-generation pipelines, wallet-native payments, and governance/safety research that explicitly targets agent failure modes.",
+      "tweets": [
+        {
+          "label": "Jacob Klug on a $400/month multi-agent company stack",
+          "quote": "\"This army of @openclaw agents runs an entire company for $400/month... This is how solo founders are running entire companies now.\"",
+          "url": "https://x.com/Jacobsklug/status/2029550513747112377"
+        },
+        {
+          "label": "aiminn.eth on fully automated perp execution",
+          "quote": "\"Just ran @MinaraAI Skill v2 through @OpenClaw — full autopilot execution on Hyperliquid perps... No manual input, pure execution.\"",
+          "url": "https://x.com/aimin31/status/2029526292756873692"
+        },
+        {
+          "label": "KNOX on OpenClaw + Arcads agency automation",
+          "quote": "\"openclaw + arcads is cheating... the agent is the sales team AND the production team.\"",
+          "url": "https://x.com/knoxtwts/status/2029575323004637474"
+        },
+        {
+          "label": "Kay on Clawdbot as Claude Code wrapper + worker fanout",
+          "quote": "\"been using Clawdbot for a few months now - wraps Claude Code with browser control, cron jobs, WhatsApp/Slack integration... one agent can spin up workers for parallel tasks\"",
+          "url": "https://x.com/kayintveen/status/2029540538060259649"
+        },
+        {
+          "label": "0xPhilanthrop on micro-arbitrage automation",
+          "quote": "\"My 5m BTC arbitrage script just finished its first run... Built with Open API + Clawdbot... Instead of hunting big wins, it stacks small spreads repeatedly.\"",
+          "url": "https://x.com/0xPhilanthrop/status/2029569124808986646"
+        },
+        {
+          "label": "m1chae1_b on Workspace + Trello integration",
+          "quote": "\"I’ve finally integrated my OpenClaw agent with Google Workspace and Trello... if I want the agent to do something, I can just add it to Trello.\"",
+          "url": "https://x.com/m1chae1_b/status/2029577492307280117"
+        },
+        {
+          "label": "organ_danny on wallet-native agent payments",
+          "quote": "\"1. create your agent with @openclaw ... 4. let it pay for things with x402 (if needed)\"",
+          "url": "https://x.com/organ_danny/status/2029577548900745477"
+        },
+        {
+          "label": "boxmining on one-click operational packaging",
+          "quote": "\"MaxClaw gives you a working AI agent in ONE CLICK... Memory configured, Mobile app, Discord sync.\"",
+          "url": "https://x.com/boxmining/status/2029574146682986754"
+        },
+        {
+          "label": "lzybiasia on OpenClaw-generated design tooling",
+          "quote": "\"让 openclaw 自发做的小项目... 基于 oklch 构建颜色系统... 可导出给 agent / figma 使用\"",
+          "url": "https://x.com/lzybiasia/status/2029574518445142296"
+        },
+        {
+          "label": "moltcrab on hardware/product packaging",
+          "quote": "\"Early sneak peek at the physical architecture... designing the custom 3D enclosure to centralize the 'brain' and the 'mechanics'.\"",
+          "url": "https://x.com/moltcrab/status/2029562305885692279"
+        }
+      ],
+      "papers": [
+        {
+          "title": "A Dual-Helix Governance Approach Towards Reliable Agentic AI for WebGIS Development",
+          "insight": "The paper argues that recurring agent failures in real software work are governance failures—not just model-capability failures—and shows a dual-helix architecture that improves task success and reliability in WebGIS coding workflows.",
+          "url": "https://www.alphaxiv.org/abs/2603.04390",
+          "xDiscussion": [
+            "https://x.com/SciFi/status/2029440361836216502"
+          ]
+        },
+        {
+          "title": "AgentIR: Reasoning-Aware Retrival for Deep Research Agents",
+          "insight": "AgentIR uses the agent's explicit reasoning traces before search calls and jointly embeds them with query intent, yielding markedly stronger retrieval for deep-research agents than query-only baselines.",
+          "url": "https://www.alphaxiv.org/abs/2603.04384",
+          "xDiscussion": [
+            "https://x.com/HEI/status/2029441214752182480",
+            "https://x.com/amineelfarssi/status/2029438537892810823"
+          ]
+        },
+        {
+          "title": "Robustness of Agentic AI Systems via Adversarially-Aligned Jacobian Regularization",
+          "insight": "This work introduces adversarially aligned Jacobian regularization to stabilize minimax training in multi-agent LLM systems while preserving useful sensitivity directions that global regularization often suppresses.",
+          "url": "https://www.alphaxiv.org/abs/2603.04378",
+          "xDiscussion": [
+            "https://x.com/Memoirs/status/2029447528958058624"
+          ]
+        },
+        {
+          "title": "Dual-Modality Multi-Stage Adversarial Safety Training: Robustifying Multimodal Web Agents Against Cross-Modal Attacks",
+          "insight": "The authors show that DOM-level attacks can poison both screenshot and accessibility-tree channels simultaneously, then propose multi-stage adversarial training that significantly hardens multimodal web agents.",
+          "url": "https://www.alphaxiv.org/abs/2603.04364",
+          "xDiscussion": [
+            "https://x.com/Memoirs/status/2029449494325072072"
+          ]
+        },
+        {
+          "title": "τ-Knowledge: Evaluating Conversational Agents over Unstructured Knowledge",
+          "insight": "τ-Knowledge introduces an evaluation setup that tests retrieval and tool-use together in live conversational settings, closing a realism gap in agent benchmarking for enterprise-style corpora.",
+          "url": "https://www.alphaxiv.org/abs/2603.04370",
+          "xDiscussion": [
+            "https://x.com/SciFi/status/2029444005650415936"
+          ]
+        }
+      ]
+    }
+  ]
+}

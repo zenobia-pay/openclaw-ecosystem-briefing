@@ -6,55 +6,64 @@
   <title>OpenClaw Ecosystem Briefing</title>
   <style>
     body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;background:#faf8f5;color:#1f1f1f;margin:0}
-    .wrap{max-width:980px;margin:0 auto;padding:28px}
-    h1{font-size:34px;margin:0 0 10px}
-    .sub{color:#666}
-    .card{background:#fff;border:1px solid #ece7e0;border-radius:10px;padding:16px;margin:14px 0}
-    .quote{background:#f5f3f0;border-left:3px solid #c7bfb2;padding:10px 12px;margin:10px 0;white-space:pre-wrap}
+    .wrap{max-width:1000px;margin:0 auto;padding:28px}
+    h1{font-size:32px;margin:0 0 10px}
+    .meta{color:#666;font-size:13px}
+    .tabs{display:flex;gap:8px;margin:14px 0}
+    .tab{padding:8px 12px;border:1px solid #ddd;border-radius:8px;background:#fff;cursor:pointer}
+    .tab.active{background:#111;color:#fff;border-color:#111}
+    .card{background:#fff;border:1px solid #ece7e0;border-radius:10px;padding:14px;margin:10px 0}
+    .run{padding:12px;border-top:1px solid #eee}
+    .run:first-child{border-top:none}
+    ul{margin:8px 0 0 18px}
+    li{margin:8px 0}
+    .hidden{display:none}
     a{color:#0b57d0}
-    .meta{color:#777;font-size:13px;margin-bottom:6px}
   </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots?</h1>
-  <p class="meta"><a href="https://briefing-hub.founders-0e1.workers.dev" target="_blank">← All briefings (hub)</a></p>
-  <p class="sub">Primary-source briefing • verbatim quotes + links</p>
-  <div class="card" style="display:flex;gap:10px;align-items:center;">
-    <button id="runBtn">Run again today</button>
-    <details><summary>ℹ prompt</summary><pre id="runPromptView" style="white-space:pre-wrap;font-size:.82rem;max-width:760px;"></pre></details>
-    <span id="runStatus" class="meta"></span>
+  <h1>OpenClaw Ecosystem Briefing</h1>
+  <p class="meta">Daily runs + global signals index</p>
+
+  <div class="tabs">
+    <button id="tabRuns" class="tab active">View A: Dated briefing runs</button>
+    <button id="tabSignals" class="tab">View B: Global Signals index</button>
   </div>
 
-  <div class="card">
-    <h2>Primary-source entries</h2>
-    <div id="entries"></div>
-  </div>
+  <section id="runsView" class="card"></section>
+  <section id="signalsView" class="card hidden"></section>
 
-  <p class="sub">API: <a href="/api/sources">/api/sources</a> • Dataset: <a href="/api/dataset">/api/dataset</a></p>
+  <p class="meta">API: <a href="/api/runs">/api/runs</a> • <a href="/api/signals">/api/signals</a></p>
 </div>
 <script>
-function buildPrompt(topic, windowSel='last 24 hours') {
-  const d = new Date().toISOString().slice(0,10);
-  return `You are producing a daily intelligence briefing for me.\n\nObjective\n\nCreate today’s briefing for this topic:\n\n${topic}\n\nDate of briefing: ${d}\nTime window: ${windowSel}\n\nData Collection Workflow\n\n1) Browser Use + SuperGrok on X\n\nUse Browser Use with my saved profile/session and run SuperGrok research on X for the topic above.\n\nCollect:\n- High-signal tweets/posts with direct status URLs\n- People/accounts driving the conversation\n- Verbatim tweet text from each selected post\n\nOutput target:\n- 10 high-signal tweet links minimum\n- 5 high-signal people/accounts minimum\n\n2) alphaXiv / arXiv pass\n\nSearch alphaXiv and arXiv for relevant papers in the same topic window.\n\nCollect:\n- Paper title\n- 1 sentence abstract-level insight per paper\n- Direct alphaXiv and/or arXiv links\n- People discussing those papers on X (when available)\n\nOutput target:\n- 5 relevant papers minimum\n\n3) Signals extraction\n\nBuild a global Signals set where each signal is a person:\n- Twitter account(s)\n- Researcher/author(s)\n\nEach signal includes:\n- Name\n- Role/type (account, researcher, author)\n- Multiple links when available (X, website, scholar, lab page, paper links)\n\nBriefing Format (Email Style)\n\nWrite the briefing as if it is the final email body.\n\nStructure:\n1. One-sentence take\n- Exactly one strong summary sentence.\n\n2. Tweets\n- Each bullet is:\n- 1 sentence from the tweet (verbatim or tightly extracted from tweet text)\n- → [label](direct status URL)\n\n3. Papers\n- Each bullet is:\n- 1 sentence from paper abstract/summary\n- → [paper title](alphaXiv or arXiv URL)\n\nStyle:\n- Crisp, direct, high-signal\n- One sentence per source item (max two if truly needed)\n- Link labels should be human-readable\n\nPublishing + Site Rules\n\nUpdate the briefing site so it supports daily operation:\n1. Date-based runs\n- Use date labels (YYYY-MM-DD), not v1/v2 naming.\n- Newest run appears first.\n\n2. Global views\n- View A: dated briefing runs (email-format body)\n- View B: global Signals index (people with links)\n\n3. Original prompt section\n- Include the exact original one-sentence user prompt for that run.\n\n4. Deployment\n- Deploy to Cloudflare Worker\n- Commit and push changes\n- Return live URL + commit hash\n\nDeliverables\n\nReturn:\n1. Final email-formatted briefing text\n2. Signals list (structured)\n3. Deployed page URL\n4. Repo URL\n5. Commit hash`;
-}
-const RUN_PROMPT = buildPrompt('What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots?','last 24 hours');
-runPromptView.textContent = RUN_PROMPT;
-runBtn.onclick = async () => {
-  runStatus.textContent = 'sending...';
-  const r = await fetch('/api/run', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({ prompt: RUN_PROMPT })});
-  const j = await r.json().catch(()=>({}));
-  runStatus.textContent = j.ok ? 'sent to Slack trigger' : `failed (${j.error||r.status})`;
-};
+const tabRuns = document.getElementById('tabRuns');
+const tabSignals = document.getElementById('tabSignals');
+const runsView = document.getElementById('runsView');
+const signalsView = document.getElementById('signalsView');
+
+function showRuns(){ tabRuns.classList.add('active'); tabSignals.classList.remove('active'); runsView.classList.remove('hidden'); signalsView.classList.add('hidden'); }
+function showSignals(){ tabSignals.classList.add('active'); tabRuns.classList.remove('active'); signalsView.classList.remove('hidden'); runsView.classList.add('hidden'); }
+tabRuns.onclick = showRuns; tabSignals.onclick = showSignals;
+
 (async function(){
-  const data = await (await fetch('/sources.json')).json();
-  const root = document.getElementById('entries');
-  data.entries.forEach(e => {
-    const d = document.createElement('div');
-    d.className = 'quote';
-    d.innerHTML = `<div class="meta"><strong>${e.cluster}</strong> • ${e.project} • ${e.author || ''} ${e.date || ''}</div><div>${e.verbatim}</div><div><a href="${e.sourceUrl}" target="_blank">Primary source link</a></div>`;
-    root.appendChild(d);
-  });
+  const runsData = await (await fetch('/runs.json')).json();
+  const signalsData = await (await fetch('/signals.json')).json();
+
+  const runs = [...runsData.runs].sort((a,b)=> b.date.localeCompare(a.date));
+  runsView.innerHTML = '<h2>Dated runs</h2>' + runs.map(run => `
+    <article class="run">
+      <h3>${run.date}</h3>
+      <p><strong>One-sentence take:</strong> ${run.oneSentenceTake}</p>
+      <details><summary><strong>Original prompt</strong></summary><p>${run.prompt}</p></details>
+      <h4>Tweets</h4>
+      <ul>${run.tweets.map(t => `<li>${t.quote} → <a href="${t.url}" target="_blank">${t.label}</a></li>`).join('')}</ul>
+      <h4>Papers</h4>
+      <ul>${run.papers.map(p => `<li>${p.insight} → <a href="${p.url}" target="_blank">${p.title}</a>${(p.xDiscussion&&p.xDiscussion.length)?` (X: ${p.xDiscussion.map((x,i)=>`<a href="${x}" target="_blank">post ${i+1}</a>`).join(', ')})`:''}</li>`).join('')}</ul>
+    </article>
+  `).join('');
+
+  signalsView.innerHTML = `<h2>Signals index</h2><p class="meta">Updated: ${signalsData.updatedAt}</p><ul>${signalsData.signals.map(s=>`<li><strong>${s.name}</strong> (${s.type}) — ${Object.entries(s.links).map(([k,v])=>`<a href="${v}" target="_blank">${k}</a>`).join(' · ')}</li>`).join('')}</ul>`;
 })();
 </script>
 </body>

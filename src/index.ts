@@ -3,14 +3,17 @@ export interface Env { TRIGGER_WEBHOOK_URL?: string }
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
-    if (url.pathname === "/api/sources") {
-      const data = await (await fetch(new URL("/sources.json", request.url))).json();
+
+    if (url.pathname === '/api/runs') {
+      const data = await (await fetch(new URL('/runs.json', request.url))).json();
       return Response.json(data);
     }
-    if (url.pathname === "/api/dataset") {
-      const data = await (await fetch(new URL("/dataset.json", request.url))).json();
+
+    if (url.pathname === '/api/signals') {
+      const data = await (await fetch(new URL('/signals.json', request.url))).json();
       return Response.json(data);
     }
+
     if (url.pathname === '/api/run' && request.method === 'POST') {
       const body = await request.json<any>().catch(() => ({}));
       const prompt = body?.prompt || 'Run daily briefing';
@@ -18,6 +21,7 @@ export default {
       const resp = await fetch(env.TRIGGER_WEBHOOK_URL, { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({ text: prompt })});
       return Response.json({ ok: resp.ok, status: resp.status });
     }
+
     return fetch(request);
   },
 };

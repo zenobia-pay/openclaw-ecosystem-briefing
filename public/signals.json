@@ -1,92 +1,68 @@
 {
-  "updatedAt": "2026-03-05",
+  "updatedAt": "2026-03-06",
   "signals": [
     {
-      "name": "Jacob Klug",
+      "name": "Kevin Simback \ud83c\udf77",
       "type": "account",
       "links": {
-        "x": "https://x.com/Jacobsklug",
-        "examplePost": "https://x.com/Jacobsklug/status/2029550513747112377"
+        "x": "https://x.com/KSimback",
+        "examplePost": "https://x.com/i/web/status/2030068214680424684"
       }
     },
     {
-      "name": "aiminn.eth",
+      "name": "Prakash",
       "type": "account",
       "links": {
-        "x": "https://x.com/aimin31",
-        "examplePost": "https://x.com/aimin31/status/2029526292756873692"
+        "x": "https://x.com/8teAPi",
+        "examplePost": "https://x.com/i/web/status/2030070443651256604"
       }
     },
     {
-      "name": "KNOX",
+      "name": "Shrikala",
       "type": "account",
       "links": {
-        "x": "https://x.com/knoxtwts",
-        "examplePost": "https://x.com/knoxtwts/status/2029575323004637474"
+        "x": "https://x.com/ShrikalaKashyap",
+        "examplePost": "https://x.com/i/web/status/2030066395862491276"
       }
     },
     {
-      "name": "Kay",
+      "name": "Henry George",
       "type": "account",
       "links": {
-        "x": "https://x.com/kayintveen",
-        "examplePost": "https://x.com/kayintveen/status/2029540538060259649"
+        "x": "https://x.com/hjegeorge",
+        "examplePost": "https://x.com/i/web/status/2030063429453521355"
       }
     },
     {
-      "name": "Philanthrop",
+      "name": "Grok",
       "type": "account",
       "links": {
-        "x": "https://x.com/0xPhilanthrop",
-        "examplePost": "https://x.com/0xPhilanthrop/status/2029569124808986646"
+        "x": "https://x.com/grok",
+        "examplePost": "https://x.com/i/web/status/2030066339935666384"
       }
     },
     {
-      "name": "Michael B",
+      "name": "Muhammad Abdullah | Video Editor",
       "type": "account",
       "links": {
-        "x": "https://x.com/m1chae1_b",
-        "examplePost": "https://x.com/m1chae1_b/status/2029577492307280117"
+        "x": "https://x.com/abdullahpsd7",
+        "examplePost": "https://x.com/i/web/status/2029950134012784957"
       }
     },
     {
-      "name": "Boyuan",
-      "type": "researcher",
+      "name": "Jose Roqueni",
+      "type": "account",
       "links": {
-        "paper": "https://www.alphaxiv.org/abs/2603.04390",
-        "arxiv": "https://arxiv.org/abs/2603.04390"
+        "x": "https://x.com/JoseLuisRoqueni",
+        "examplePost": "https://x.com/i/web/status/2030070309282533843"
       }
     },
     {
-      "name": "Zijian Chen",
-      "type": "researcher",
+      "name": "Deus The Creator",
+      "type": "account",
       "links": {
-        "paper": "https://www.alphaxiv.org/abs/2603.04384",
-        "arxiv": "https://arxiv.org/abs/2603.04384"
-      }
-    },
-    {
-      "name": "Furkan Mumcu",
-      "type": "researcher",
-      "links": {
-        "paper": "https://www.alphaxiv.org/abs/2603.04378",
-        "arxiv": "https://arxiv.org/abs/2603.04378"
-      }
-    },
-    {
-      "name": "Haoyu Liu",
-      "type": "researcher",
-      "links": {
-        "paper": "https://www.alphaxiv.org/abs/2603.04364",
-        "arxiv": "https://arxiv.org/abs/2603.04364"
-      }
-    },
-    {
-      "name": "Quan Shi",
-      "type": "researcher",
-      "links": {
-        "paper": "https://www.alphaxiv.org/abs/2603.04370",
-        "arxiv": "https://arxiv.org/abs/2603.04370"
+        "x": "https://x.com/deusisme",
+        "examplePost": "https://x.com/i/web/status/2030069137607905502"
       }
     }
   ]

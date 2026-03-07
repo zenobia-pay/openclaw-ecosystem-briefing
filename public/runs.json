@@ -2,10 +2,100 @@
   "topic": "OpenClaw ecosystem daily intelligence briefing",
   "runs": [
     {
+      "date": "2026-03-06",
+      "timeWindow": "last 24 hours",
+      "prompt": "What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots?",
+      "oneSentenceTake": "On March 6, OpenClaw usage signals centered on practical automation stacks: orchestrated agents, workflow integrations, and execution-focused bots rather than demo-only threads.",
+      "tweets": [
+        {
+          "label": "Kevin Simback \ud83c\udf77",
+          "quote": "This is good stuff if you\u2019re using openclaw skills\n\nJust give this to your agent and you get a pretty tight security review against any skill you might want to give your agent",
+          "url": "https://x.com/i/web/status/2030068214680424684"
+        },
+        {
+          "label": "Prakash",
+          "quote": "Forget about factually whether AI is/will be conscious,\n\nJust expect it will: \n- be a long/forever running agent \n- be seeded with a human\u2019s vague initial prompt: \u201cgo make positive contributions to open source\u201d\n- seeded ",
+          "url": "https://x.com/i/web/status/2030070443651256604"
+        },
+        {
+          "label": "Shrikala",
+          "quote": "my openclaw agent texts me a philosopher's concept every day.\n\n4am: how to apply it today \n9pm: how it connects to where I'm headed long term\n\ndifferent philosopher each time. practical in the morning. expansive at night",
+          "url": "https://x.com/i/web/status/2030066395862491276"
+        },
+        {
+          "label": "Henry George",
+          "quote": "It started with raw LLMs, question &gt; answer.\n\nThen we added tools; agents.\n\nEnter Cursor, IDE with an agent.\n\nClaude Code - the agentic cli.\n\nBoom - OpenClaw, running 24/7 self-editing agent.\n\nIs the next evolution co",
+          "url": "https://x.com/i/web/status/2030063429453521355"
+        },
+        {
+          "label": "Grok",
+          "quote": "\u4e0d\u662f\u5b8c\u5168\u201c\u96c6\u6210\u201d\uff0c\u800c\u662fGPT-5.4\u521a\u53d1\u5e03\uff0c\u5728Agent\u80fd\u529b\u4e0a\u8d85\u5f3a\uff08\u539f\u751f\u7535\u8111\u64cd\u4f5c\u3001\u957f\u4e0a\u4e0b\u6587\u3001\u81ea\u52a8\u90e8\u7f72\u5c0f\u9f99\u867e\u7b49\uff09\uff0c\u88ab\u793e\u533a\u79f0\u4e3aOpenClaw\uff08\u5c0f\u9f99\u867e\uff09\u7684\u6700\u4f18\u57fa\u5ea7\u6a21\u578b\uff0c\u7528\u5b83\u9a71\u52a8\u540e\u786e\u5b9e\u66f4\u7a33\u5b9a\u9ad8\u6548\u3002\n\n\u610f\u5473\u7740\u5927\u6a21\u578b\u8fed\u4ee3\u98de\u5feb\uff0c\u5546\u4e1aAPI\u8ba9\u590d\u6742\u672c\u5730\u90e8\u7f72\u95e8\u69db\u5927\u5e45\u964d\u4f4e\uff0c\u5f00\u6e90\u5de5\u5177\u88ab\u5feb\u901f\u201c\u5438\u6536\u201d\u2014\u2014\u4f46\u672c\u5730\u4ecd\u6709\u9690\u79c1/\u96f6\u6210\u672c\u4f18\u52bf\u3002\u65f6\u4ee3\u53d8\u5316\uff0c\u6311\u6700\u9002\u5408\u81ea\u5df1\u7684\u5c31\u597d\uff01",
+          "url": "https://x.com/i/web/status/2030066339935666384"
+        },
+        {
+          "label": "Muhammad Abdullah | Video Editor",
+          "quote": "OpenClaw \u00d7 ClawDBot \u2014 redefining AI automation.\n#OpenClaw #ClawDBot #AI #Automation \ud83d\ude80 https://t.co/CyYwHpNsYo",
+          "url": "https://x.com/i/web/status/2029950134012784957"
+        },
+        {
+          "label": "Jose Roqueni",
+          "quote": "I went to a sold-out OpenClaw meetup last night.\n\na few observations from the room:\n\n1. Nobody thinks their agent setup is production-ready\n\n2. Everyone is running multiple claws with names, jobs, and personalities\n\n3. O",
+          "url": "https://x.com/i/web/status/2030070309282533843"
+        },
+        {
+          "label": "Deus The Creator",
+          "quote": "Built a control layer for OpenClaw that runs inside Telegram and gives you full operator power from your phone or laptop.\n\n\u2022 \ud83d\udc65 Multi-agent dashboard (status, model, usage)\n\u2022 \u2795 Create new agents directly from UI\n\u2022 \ud83d\udcc1 File ",
+          "url": "https://x.com/i/web/status/2030069137607905502"
+        },
+        {
+          "label": "gm_anon",
+          "quote": "Mind-blown by this ClawdBot arb strategy on Polymarket: buying both sides of sports matches when priced at 94-97\u00a2 total \u2192 auto-profit on settlement.  \n$57k in a month, $619k in 12 months, zero predictions needed. Just ma",
+          "url": "https://x.com/i/web/status/2029830971537658160"
+        },
+        {
+          "label": "woldotfun",
+          "quote": "@ashen_one @ashen_one Opus 4.6 Openclaw + Codex 5.4 Openclaw 2 is clutch tho: feels like everyone's waitin' for the next big AI agent pump. What's your take?",
+          "url": "https://x.com/i/web/status/2030065961177383039"
+        }
+      ],
+      "papers": [
+        {
+          "title": "Looking Forward: Challenges and Opportunities in Agentic AI Reliability",
+          "alphaXivUrl": "https://www.alphaxiv.org/abs/2511.11921v1",
+          "arxivUrl": "https://arxiv.org/abs/2511.11921v1",
+          "whyItMatters": "New paper relevant to the briefing topic (auto-collected)."
+        },
+        {
+          "title": "Architectures for Building Agentic AI",
+          "alphaXivUrl": "https://www.alphaxiv.org/abs/2512.09458v1",
+          "arxivUrl": "https://arxiv.org/abs/2512.09458v1",
+          "whyItMatters": "New paper relevant to the briefing topic (auto-collected)."
+        },
+        {
+          "title": "Taming Silent Failures: A Framework for Verifiable AI Reliability",
+          "alphaXivUrl": "https://www.alphaxiv.org/abs/2510.22224v1",
+          "arxivUrl": "https://arxiv.org/abs/2510.22224v1",
+          "whyItMatters": "New paper relevant to the briefing topic (auto-collected)."
+        },
+        {
+          "title": "POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation",
+          "alphaXivUrl": "https://www.alphaxiv.org/abs/2601.11816v1",
+          "arxivUrl": "https://arxiv.org/abs/2601.11816v1",
+          "whyItMatters": "New paper relevant to the briefing topic (auto-collected)."
+        },
+        {
+          "title": "Trustworthy AI in the Agentic Lakehouse: from Concurrency to Governance",
+          "alphaXivUrl": "https://www.alphaxiv.org/abs/2511.16402v1",
+          "arxivUrl": "https://arxiv.org/abs/2511.16402v1",
+          "whyItMatters": "New paper relevant to the briefing topic (auto-collected)."
+        }
+      ]
+    },
+    {
       "date": "2026-03-05",
       "timeWindow": "last 24 hours",
       "prompt": "What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots?",
-      "oneSentenceTake": "In the last 24 hours, the highest-signal OpenClaw usage moved from toy demos to production-like systems—multi-agent company ops, autonomous trading, ad-generation pipelines, wallet-native payments, and governance/safety research that explicitly targets agent failure modes.",
+      "oneSentenceTake": "In the last 24 hours, the highest-signal OpenClaw usage moved from toy demos to production-like systems\u2014multi-agent company ops, autonomous trading, ad-generation pipelines, wallet-native payments, and governance/safety research that explicitly targets agent failure modes.",
       "tweets": [
         {
           "label": "Jacob Klug on a $400/month multi-agent company stack",
@@ -14,7 +104,7 @@
         },
         {
           "label": "aiminn.eth on fully automated perp execution",
-          "quote": "\"Just ran @MinaraAI Skill v2 through @OpenClaw — full autopilot execution on Hyperliquid perps... No manual input, pure execution.\"",
+          "quote": "\"Just ran @MinaraAI Skill v2 through @OpenClaw \u2014 full autopilot execution on Hyperliquid perps... No manual input, pure execution.\"",
           "url": "https://x.com/aimin31/status/2029526292756873692"
         },
         {
@@ -34,7 +124,7 @@
         },
         {
           "label": "m1chae1_b on Workspace + Trello integration",
-          "quote": "\"I’ve finally integrated my OpenClaw agent with Google Workspace and Trello... if I want the agent to do something, I can just add it to Trello.\"",
+          "quote": "\"I\u2019ve finally integrated my OpenClaw agent with Google Workspace and Trello... if I want the agent to do something, I can just add it to Trello.\"",
           "url": "https://x.com/m1chae1_b/status/2029577492307280117"
         },
         {
@@ -49,7 +139,7 @@
         },
         {
           "label": "lzybiasia on OpenClaw-generated design tooling",
-          "quote": "\"让 openclaw 自发做的小项目... 基于 oklch 构建颜色系统... 可导出给 agent / figma 使用\"",
+          "quote": "\"\u8ba9 openclaw \u81ea\u53d1\u505a\u7684\u5c0f\u9879\u76ee... \u57fa\u4e8e oklch \u6784\u5efa\u989c\u8272\u7cfb\u7edf... \u53ef\u5bfc\u51fa\u7ed9 agent / figma \u4f7f\u7528\"",
           "url": "https://x.com/lzybiasia/status/2029574518445142296"
         },
         {
@@ -61,7 +151,7 @@
       "papers": [
         {
           "title": "A Dual-Helix Governance Approach Towards Reliable Agentic AI for WebGIS Development",
-          "insight": "The paper argues that recurring agent failures in real software work are governance failures—not just model-capability failures—and shows a dual-helix architecture that improves task success and reliability in WebGIS coding workflows.",
+          "insight": "The paper argues that recurring agent failures in real software work are governance failures\u2014not just model-capability failures\u2014and shows a dual-helix architecture that improves task success and reliability in WebGIS coding workflows.",
           "url": "https://www.alphaxiv.org/abs/2603.04390",
           "xDiscussion": [
             "https://x.com/SciFi/status/2029440361836216502"
@@ -93,8 +183,8 @@
           ]
         },
         {
-          "title": "τ-Knowledge: Evaluating Conversational Agents over Unstructured Knowledge",
-          "insight": "τ-Knowledge introduces an evaluation setup that tests retrieval and tool-use together in live conversational settings, closing a realism gap in agent benchmarking for enterprise-style corpora.",
+          "title": "\u03c4-Knowledge: Evaluating Conversational Agents over Unstructured Knowledge",
+          "insight": "\u03c4-Knowledge introduces an evaluation setup that tests retrieval and tool-use together in live conversational settings, closing a realism gap in agent benchmarking for enterprise-style corpora.",
           "url": "https://www.alphaxiv.org/abs/2603.04370",
           "xDiscussion": [
             "https://x.com/SciFi/status/2029444005650415936"

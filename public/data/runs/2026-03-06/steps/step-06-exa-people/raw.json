@@ -1,7 +1,7 @@
 [
   {
     "mode": "supergrok-fallback",
-    "prompt": "Find 10 people/accounts to track for this topic and return strict JSON array with fields: name, handle, why_relevant, url. Topic: What is new in the OpenClaw ecosystem, releases, and tooling?",
+    "prompt": "Find 10 people/accounts to track for this topic and return strict JSON array with fields: name, handle, why_relevant, url. Topic: What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots?",
     "raw": {
       "session": null,
       "task": null,
@@ -15,19 +15,19 @@
       {
         "name": "Fallback analyst",
         "handle": "@fallback",
-        "why_relevant": "No external people payload returned for topic: What is new in the OpenClaw ecosystem, releases, and tooling?",
+        "why_relevant": "No external people payload returned for topic: What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots?",
         "url": "https://x.com"
       },
       {
         "name": "Fallback analyst",
         "handle": "@fallback",
-        "why_relevant": "No external people payload returned for topic: What is new in the OpenClaw ecosystem, releases, and tooling?",
+        "why_relevant": "No external people payload returned for topic: What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots?",
         "url": "https://x.com"
       },
       {
         "name": "Fallback analyst",
         "handle": "@fallback",
-        "why_relevant": "No external people payload returned for topic: What is new in the OpenClaw ecosystem, releases, and tooling?",
+        "why_relevant": "No external people payload returned for topic: What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots?",
         "url": "https://x.com"
       }
     ]

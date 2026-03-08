@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-07",
+  "topic": "What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots?",
+  "items": [
+    {
+      "rank": 1,
+      "url": "https://x.com/QingQ77/status/2030244066995101790",
+      "source_step": "step-03-supergrok-paper-discussion",
+      "source_file": "/Users/ryanprendergast/.openclaw/workspace/openclaw-ecosystem-briefing/data/runs/2026-03-07/steps/step-03-supergrok-paper-discussion/normalized.json",
+      "score": 21
+    },
+    {
+      "rank": 2,
+      "url": "https://x.com/griffintaur/status/2030271782213828853",
+      "source_step": "step-03-supergrok-paper-discussion",
+      "source_file": "/Users/ryanprendergast/.openclaw/workspace/openclaw-ecosystem-briefing/data/runs/2026-03-07/steps/step-03-supergrok-paper-discussion/normalized.json",
+      "score": 19
+    }
+  ]
+}

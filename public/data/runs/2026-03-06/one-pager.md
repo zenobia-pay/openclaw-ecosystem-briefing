@@ -1,4 +1,4 @@
-# One-Pager — What is new in the OpenClaw ecosystem, releases, and tooling? (2026-03-06)
+# One-Pager — What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots? (2026-03-06)
 
 Built from step outputs under data/runs/2026-03-06/steps/.
 

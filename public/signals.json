@@ -1,68 +1,74 @@
 {
-  "updatedAt": "2026-03-06",
+  "updatedAt": "2026-03-07",
   "signals": [
     {
-      "name": "Kevin Simback \ud83c\udf77",
+      "name": "supergrok-signal",
       "type": "account",
       "links": {
-        "x": "https://x.com/KSimback",
-        "examplePost": "https://x.com/i/web/status/2030068214680424684"
+        "examplePost": "https://x.com/josh_yang11/status/2030351877645431281"
       }
     },
     {
-      "name": "Prakash",
+      "name": "supergrok-signal",
       "type": "account",
       "links": {
-        "x": "https://x.com/8teAPi",
-        "examplePost": "https://x.com/i/web/status/2030070443651256604"
+        "examplePost": "https://x.com/OnlyTerp/status/2030351363729682660"
       }
     },
     {
-      "name": "Shrikala",
+      "name": "supergrok-signal",
       "type": "account",
       "links": {
-        "x": "https://x.com/ShrikalaKashyap",
-        "examplePost": "https://x.com/i/web/status/2030066395862491276"
+        "examplePost": "https://x.com/ShaneCollinsAI/status/2030351207433457676"
       }
     },
     {
-      "name": "Henry George",
+      "name": "supergrok-signal",
       "type": "account",
       "links": {
-        "x": "https://x.com/hjegeorge",
-        "examplePost": "https://x.com/i/web/status/2030063429453521355"
+        "examplePost": "https://x.com/wokai_xyz/status/2030351200000000000"
       }
     },
     {
-      "name": "Grok",
+      "name": "supergrok-signal",
       "type": "account",
       "links": {
-        "x": "https://x.com/grok",
-        "examplePost": "https://x.com/i/web/status/2030066339935666384"
+        "examplePost": "https://x.com/kaif9999/status/2030351377055338511"
       }
     },
     {
-      "name": "Muhammad Abdullah | Video Editor",
+      "name": "supergrok-signal",
       "type": "account",
       "links": {
-        "x": "https://x.com/abdullahpsd7",
-        "examplePost": "https://x.com/i/web/status/2029950134012784957"
+        "examplePost": "https://x.com/ClawSuite/status/2030351156619198947"
       }
     },
     {
-      "name": "Jose Roqueni",
+      "name": "supergrok-signal",
       "type": "account",
       "links": {
-        "x": "https://x.com/JoseLuisRoqueni",
-        "examplePost": "https://x.com/i/web/status/2030070309282533843"
+        "examplePost": "https://x.com/rene__hdz/status/2030351205730304440"
       }
     },
     {
-      "name": "Deus The Creator",
+      "name": "supergrok-signal",
       "type": "account",
       "links": {
-        "x": "https://x.com/deusisme",
-        "examplePost": "https://x.com/i/web/status/2030069137607905502"
+        "examplePost": "https://x.com/MageArez/status/2030351447087251663"
+      }
+    },
+    {
+      "name": "supergrok-signal",
+      "type": "account",
+      "links": {
+        "examplePost": "https://x.com/jrswiftjourney/status/2030351340673601816"
+      }
+    },
+    {
+      "name": "supergrok-signal",
+      "type": "account",
+      "links": {
+        "examplePost": "https://x.com/likikyou2/status/2030351657767170159"
       }
     }
   ]

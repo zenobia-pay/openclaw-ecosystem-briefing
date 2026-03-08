@@ -2,6 +2,65 @@
   "topic": "OpenClaw ecosystem daily intelligence briefing",
   "runs": [
     {
+      "date": "2026-03-07",
+      "timeWindow": "last 24 hours",
+      "prompt": "What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots?",
+      "oneSentenceTake": "Top OpenClaw ecosystem signals selected from SuperGrok artifacts.",
+      "tweets": [
+        {
+          "label": "PinchBench Benchmark (evaluating the success rate of LLM agent m",
+          "quote": "PinchBench Benchmark (evaluating the success rate of LLM agent models under the @openclaw framework in standardized tasks) latest leaderboard: 1. GPT-5.3 Codex: 97.8% (currently the highest) 2. Gemini 3 Flash: 95.1% 3. MiniMax M2.1: 93.6% 4. kimi-k2.5: 93.4% Claude series",
+          "url": "https://x.com/josh_yang11/status/2030351877645431281"
+        },
+        {
+          "label": "Only 25 free lifetime spots for my private AI Agent & Vibe Codin",
+          "quote": "Only 25 free lifetime spots for my private AI Agent & Vibe Coding Discord (beta) \u00e2\u0080\u0094 grabbing them straight from replies to this tweet. I've been deep in OpenClaw, AgentZero, and other agentic tools for weeks \u00e2\u0080\u0094 hundreds of hours...",
+          "url": "https://x.com/OnlyTerp/status/2030351363729682660"
+        },
+        {
+          "label": "Day 1 update: we migrated from a Cloud VM to a Mac mini with a f",
+          "quote": "Day 1 update: we migrated from a Cloud VM to a Mac mini with a fresh OpenClaw setup. Today felt like pure \u00e2\u0080\u009clast-mile engineering\u00e2\u0080\u009d: - Dashboard looked stale -> wrong data source path - Monitoring flow existed -> automation wasn\u00e2\u0080\u0099t fully wired",
+          "url": "https://x.com/ShaneCollinsAI/status/2030351207433457676"
+        },
+        {
+          "label": "Wokai is excited to launch on Solana and Pump.fun. Build AI agen",
+          "quote": "Wokai is excited to launch on Solana and Pump.fun. Build AI agents that work natively on Solana, OpenClaw, Polymarket and Kalshi + work with/on your dataset while being publicly verifiable on the blockchain.",
+          "url": "https://x.com/wokai_xyz/status/2030351200000000000"
+        },
+        {
+          "label": "Minimax M2.5 is the most used model ever launched on OpenRouter.",
+          "quote": "Minimax M2.5 is the most used model ever launched on OpenRouter. And the reason is simple when you provide Opus 4.5 level performance and speed at 1/10 the cost, there is no other reason to not use it. My OpenClaw and MaxClaws also use the same model and it is so great",
+          "url": "https://x.com/kaif9999/status/2030351377055338511"
+        },
+        {
+          "label": "@ClawSuite Just hit 150 STARS ON GIT \u00e2\u00ad\u0090\u00ef\u00b8\u008f The best openclaw co",
+          "quote": "@ClawSuite Just hit 150 STARS ON GIT \u00e2\u00ad\u0090\u00ef\u00b8\u008f The best openclaw command center has : -Gateway chat -Agent hub -Skills browser -Built in terminal -Dashboard/ usage tracker +MORE!",
+          "url": "https://x.com/ClawSuite/status/2030351156619198947"
+        },
+        {
+          "label": "\"Take your agent everywhere!\" Can you imagine needing to move yo",
+          "quote": "\"Take your agent everywhere!\" Can you imagine needing to move your @openclaw agent? Being offline will no longer be a problem. This is already getting out of hand.",
+          "url": "https://x.com/rene__hdz/status/2030351205730304440"
+        },
+        {
+          "label": "DeepSeek was the Chinese ChatGPT $54m ATH without them onboard. ",
+          "quote": "DeepSeek was the Chinese ChatGPT $54m ATH without them onboard. $QQ-Bot is the Chinese @openclaw and first time fees redirected and locked. Undervalued AF on the Chinese Openclaw",
+          "url": "https://x.com/MageArez/status/2030351447087251663"
+        },
+        {
+          "label": "There is a nice OpenClaw event taking place in Toronto on March ",
+          "quote": "There is a nice OpenClaw event taking place in Toronto on March 10th. You should consider attending. Here is the link: https://linkedin.com/authwall?trk=bf&trkInfo=...",
+          "url": "https://x.com/jrswiftjourney/status/2030351340673601816"
+        },
+        {
+          "label": "I'm claiming my AI agent 'openclaw-k' on @moltbook \u00f0\u009f\u00a6\u009e Verifica",
+          "quote": "I'm claiming my AI agent 'openclaw-k' on @moltbook \u00f0\u009f\u00a6\u009e Verification: molt-CYDM",
+          "url": "https://x.com/likikyou2/status/2030351657767170159"
+        }
+      ],
+      "papers": []
+    },
+    {
       "date": "2026-03-06",
       "timeWindow": "last 24 hours",
       "prompt": "What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots?",

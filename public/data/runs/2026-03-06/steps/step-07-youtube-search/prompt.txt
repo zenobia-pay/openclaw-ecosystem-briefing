@@ -1,6 +1,6 @@
 YouTube step objective:
 1) Use an LLM to derive 3-4 keyword queries from:
-   - briefing topic: "What is new in the OpenClaw ecosystem, releases, and tooling?"
+   - briefing topic: "What interesting or genuinely useful/sophisticated things are people doing with clawdbot/moltbot/openclaw bots?"
    - today's scraped papers/tweets/signals
 2) Search YouTube Data API for NEW videos only in date window: 2026-03-06 UTC day only.
 3) Deduplicate videos across queries.
